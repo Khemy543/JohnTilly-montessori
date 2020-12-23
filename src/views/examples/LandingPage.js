@@ -110,10 +110,11 @@ function LandingPage() {
       <ExamplesNavbar />
         <LandingPageHeader />
       <div className="main">
-        <marquee behavior="scroll" scrollamount='13' direction="left" className="text-uppercase"
-          style={{color:"red", fontWeight:500, marginTop:"5px"}}
-        >ENROLL NOW!!! ADMISSION IN PROGRESS!!! ENROLL NOW!!! ADMISSION IN PROGRESS!!! ENROLL NOW!!! ADMISSION IN PROGRESS!!! ENROLL NOW!!! ADMISSION IN PROGRESS!!! </marquee>
         <div className="section">
+        <marquee behavior="scroll" scrollamount='13' direction="left" className="text-uppercase"
+          style={{color:"red", fontWeight:500}}
+        >ENROLL NOW!!! ADMISSION IN PROGRESS!!! ENROLL NOW!!! ADMISSION IN PROGRESS!!! ENROLL NOW!!! ADMISSION IN PROGRESS!!! ENROLL NOW!!! ADMISSION IN PROGRESS!!! 
+        </marquee>
           <Container>
             {/* <h4 className="text-center text-uppercase head-title">About Us</h4> */}
             <Row>

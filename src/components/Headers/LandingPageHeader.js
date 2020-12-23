@@ -2,7 +2,8 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container } from "reactstrap";
-
+import { Link } from 'react-router-dom'
+ 
 // core components
 
 function LandingPageHeader() {
@@ -35,7 +36,7 @@ function LandingPageHeader() {
       >
         <div className="filter" />
         <Container>
-          <div className="motto text-uppercase" style={{marginTop:"-50px"}}>
+          <div className="motto text-uppercase">
             <h1 style={{fontWeight:500}} data-aos="slide-right" data-aos-delay="200">I DON'T LOVE STUDYING <br/>I LOVE LEARNING</h1> 
             <br/>
             <div data-aos="slide-right" data-aos-delay="400">
@@ -43,6 +44,8 @@ function LandingPageHeader() {
               className="btn-round mr-1 one"
               color="neutral"
               outline
+              tag={Link}
+              to="/admission-forms"
             >
               Enroll
             </Button>

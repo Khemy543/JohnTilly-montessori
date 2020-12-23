@@ -216,7 +216,8 @@ function AboutPage() {
             </Row>
           </Container>
         </div>
-        <Container style={{marginBottom:"20px"}}>
+        <div className="section">
+        <Container>
             <Row>
               <Col md="4">
                 <Card className="card-plain card-outer" style={{boxShadow:"0 2px 12px rgba(0,0,0,0.1)"}}>
@@ -282,6 +283,7 @@ function AboutPage() {
               </Col>
             </Row>
           </Container>
+          </div>
         </div>
       <DemoFooter />
       <Footer />

@@ -35,7 +35,7 @@ function ContactUsHeader() {
       >
         <div className="filter" />
         <Container>
-          <div className="motto text-uppercase text-center" style={{marginTop:"-50px"}}>
+          <div className="motto text-uppercase text-center">
             <h1 style={{fontWeight:500}}>Contact Us</h1> 
             <br/>{/* 
             <Button

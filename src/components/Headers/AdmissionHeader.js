@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // reactstrap components
 import {
@@ -35,20 +36,17 @@ function AdmissionHeader() {
       >
         <div className="filter" />
         <Container>
-          <div className="motto text-uppercase text-center" style={{marginTop:"-50px"}}>
+          <div className="motto text-uppercase text-center">
             <h1 style={{fontWeight:500}}>Proceedure and Requirements</h1> 
-            <br/>{/* 
+            <br/>
             <Button
-              className="btn-round mr-1 one"
-              color="neutral"
-              outline
+              className="btn-round mr-1"
+              color="danger"
+              tag={Link}
+              to="/admission-forms"
             >
-              Enroll
+              Enroll Now
             </Button>
-            <Button className="btn-round two" color="neutral" type="button" outline
-            >
-              Programmes
-            </Button> */}
           </div>
         </Container>
       </div>

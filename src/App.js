@@ -17,6 +17,7 @@ import ourProgrammes from "views/examples/OurProgrammes";
 //AOS animation
 import AOS from "aos";
 import "aos/dist/aos.css";
+import AdmissionForms from 'views/examples/AdmissionForms';
 
 class App extends React.Component {
     constructor(props){
@@ -33,6 +34,7 @@ class App extends React.Component {
         <BrowserRouter>
         <SrollToTop/>
          <Switch>
+           <Route path="/admission-forms" component={AdmissionForms}/>
            <Route path="/programmes" component={ourProgrammes}/>
            <Route path="/academics" component={Academic}/>
            <Route path="/admissions" component={Admissions}/>

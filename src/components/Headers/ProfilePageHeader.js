@@ -35,7 +35,7 @@ function ProfilePageHeader() {
       >
         <div className="filter" />
         <Container>
-          <div className="motto text-uppercase text-center" style={{marginTop:"-50px"}}>
+          <div className="motto text-uppercase text-center">
             <h1 style={{fontWeight:500}}>Welcome Message</h1> 
             <br/>{/* 
             <Button
