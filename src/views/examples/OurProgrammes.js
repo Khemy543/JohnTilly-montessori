@@ -57,12 +57,9 @@ function OurProgrammes() {
   return (
     <>
       <ExamplesNavbar />
+        <ProgramHeader /> 
       <div className="main">
         <div className="section">
-        <ProgramHeader /> 
-        <div className="section">
-            
-        </div>
         </div>
         </div>
       <DemoFooter />

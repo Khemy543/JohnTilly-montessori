@@ -54,17 +54,17 @@ function AboutPage() {
   return (
     <>
       <ExamplesNavbar />
+      <ProfilePageHeader />
       <div className="main">
         <div className="section">
-        <ProfilePageHeader />
           <Container>
             <Row style={{marginTop:"20px"}}>
-              <Col>
+              <Col md="6" lg="6" xl="6" xs="12" sm="12">
               <Card className="card-plain" style={{boxShadow:"0 2px 12px rgba(0,0,0,0.1)"}}>
                   <CardImg top src={require('assets/img/owner.jpg')} style={{borderRadius:"0px"}}/>
                 </Card>
               </Col>
-              <Col>
+              <Col md="6" lg="6" xl="6" xs="12" sm="12">
                 <Card className="card-plain">
                   <CardBody>
                     <h3 className="head-title text-uppercase text-center" style={{fontSize:"30px", color:"#dd9933"}}>Welcome To JohnTilly Montessori</h3>
@@ -93,7 +93,7 @@ function AboutPage() {
           <Container>
             <h2 className="head-title text-uppercase text-center" style={{fontSize:"30px"}}>Meet The Team</h2>
             <Row>
-              <Col md="4">
+              <Col md="4" sm="6" xs="6">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -112,12 +112,12 @@ function AboutPage() {
                     </a>
                     <p className="card-description text-center">
                       Teamwork is so important that it is virtually impossible
-                      for you to reach the heights of your capabilities or make
+                      for you to reach the 
                     </p>
                   </CardBody>
                 </Card>
               </Col>
-              <Col md="4">
+              <Col md="4" sm="6" xs="6">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -136,12 +136,12 @@ function AboutPage() {
                     </a>
                     <p className="card-description text-center">
                       A group becomes a team when each member is sure enough of
-                      himself and his contribution to praise the skill of the
+                      himself and his 
                     </p>
                   </CardBody>
                 </Card>
               </Col>
-              <Col md="4">
+              <Col md="4" sm="6" xs="6">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -160,12 +160,12 @@ function AboutPage() {
                     </a>
                     <p className="card-description text-center">
                       The strength of the team is each individual member. The
-                      strength of each member is the team. If you can laugh
+                      strength of each 
                     </p>
                   </CardBody>
                 </Card>
               </Col>
-              <Col md="4">
+              <Col md="4" sm="6" xs="6">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -184,12 +184,12 @@ function AboutPage() {
                     </a>
                     <p className="card-description text-center">
                       Teamwork is so important that it is virtually impossible
-                      for you to reach the heights of your capabilities or make
+                      for you to reach
                     </p>
                   </CardBody>
                 </Card>
               </Col>
-              <Col md="4">
+              <Col md="4" sm="6" xs="6">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -208,8 +208,7 @@ function AboutPage() {
                     </a>
                     <p className="card-description text-center">
                       A group becomes a team when each member is sure enough of
-                      himself and his contribution to praise the skill of the
-                      orchestra to play it.
+                      himself and his 
                     </p>
                   </CardBody>
                 </Card>

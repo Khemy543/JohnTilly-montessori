@@ -57,18 +57,17 @@ function Academic() {
   return (
     <>
       <ExamplesNavbar />
+      <AcademicHeader /> 
       <div className="main">
-        <div className="section">
-        <AcademicHeader /> 
         <div className="section">
         <Container>
             <Row style={{marginTop:"20px"}}>
-              <Col>
+              <Col md="6" lg="6" xl="6" sm="12" xs="12">
               <Card className="card-plain" style={{boxShadow:"0 2px 12px rgba(0,0,0,0.1)"}}>
                   <CardImg top src={require('assets/img/academicpage.jpg')} style={{borderRadius:"0px"}}/>
                 </Card>
               </Col>
-              <Col>
+              <Col md="6" lg="6" xl="6" sm="12" xs="12">
                 <Card className="card-plain">
                   <CardBody>
                     <h3 className="head-title text-uppercase text-center" style={{fontSize:"30px", color:"#dd9933"}}>Academics in JohnTilly Montessori</h3>
@@ -91,7 +90,6 @@ function Academic() {
               </Col>
             </Row>
             </Container>
-        </div>
         </div>
         </div>
       <DemoFooter />

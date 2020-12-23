@@ -108,8 +108,8 @@ function LandingPage() {
   return (
     <>
       <ExamplesNavbar />
-      <div className="main">
         <LandingPageHeader />
+      <div className="main">
         <marquee behavior="scroll" scrollamount='13' direction="left" className="text-uppercase"
           style={{color:"red", fontWeight:500, marginTop:"5px"}}
         >ENROLL NOW!!! ADMISSION IN PROGRESS!!! ENROLL NOW!!! ADMISSION IN PROGRESS!!! ENROLL NOW!!! ADMISSION IN PROGRESS!!! ENROLL NOW!!! ADMISSION IN PROGRESS!!! </marquee>
@@ -117,12 +117,12 @@ function LandingPage() {
           <Container>
             {/* <h4 className="text-center text-uppercase head-title">About Us</h4> */}
             <Row>
-              <Col>
+              <Col md="6" lg="6" xl="6" xs="12" sm="12">
               <Card className="card-plain" style={{boxShadow:"0 2px 12px rgba(0,0,0,0.1)"}}>
                   <CardImg top src={require('assets/img/about2.jpg')} style={{borderRadius:"0px"}}/>
                 </Card>
               </Col>
-              <Col>
+              <Col md="6" lg="6" xl="6" xs="12" sm="12">
                 <Card className="card-plain">
                   <CardBody>
                     <h3 className="head-title text-uppercase text-center" style={{fontSize:"19px", color:"#dd9933"}}>Welcome To JohnTilly Montessori</h3>
@@ -158,12 +158,12 @@ function LandingPage() {
 
             <Container>
               <Row>
-                <Col>
+                <Col md="6" lg="6" xl="6" xs="12" sm="12">
                 <Card className="card-plain" style={{boxShadow:"0 2px 12px rgba(0,0,0,0.1)"}}>
                   <CardImg top src={require('assets/img/head1.jpg')} style={{borderRadius:"0px"}}/>
                 </Card>
               </Col>
-              <Col>
+              <Col md="6" lg="6" xl="6" xs="12" sm="12">
                 <Card className="card-plain">
                   <CardBody>
                     <h3 className="head-title text-uppercase text-center" style={{fontSize:"19px", color:"#dd9933"}}>WE AIM TO INSPIRE</h3>
@@ -179,7 +179,7 @@ function LandingPage() {
 
             <Container>
               <Row>
-              <Col>
+              <Col md="6" lg="6" xl="6" xs="12" sm="12">
                 <Card className="card-plain">
                   <CardBody>
                     <h3 className="head-title text-uppercase text-center" style={{fontSize:"19px", color:"#dd9933"}}>Dear kids, you matter!</h3>
@@ -190,7 +190,7 @@ function LandingPage() {
                   </CardBody>
                 </Card>
                 </Col>
-                <Col>
+                <Col md="6" lg="6" xl="6" xs="12" sm="12">
                 <Card className="card-plain" style={{boxShadow:"0 2px 12px rgba(0,0,0,0.1)"}}>
                   <CardImg top src={require('assets/img/about3.jpg')} style={{borderRadius:"0px"}}/>
                 </Card>

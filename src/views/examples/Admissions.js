@@ -56,9 +56,8 @@ function Admissions() {
   return (
     <>
       <ExamplesNavbar />
-      <div className="main">
-        <div className="section">
         <AdmissionHeader /> 
+      <div className="main">
         <div className="section">
         <Container style={{marginBottom:"20px"}}>
             <Row>
@@ -101,7 +100,6 @@ function Admissions() {
               </Col>
             </Row>
           </Container>
-        </div>
         </div>
         </div>
       <DemoFooter />

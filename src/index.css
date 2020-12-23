@@ -92,11 +92,7 @@
     color: white !important;
 }
 
-.image-box{
-    height: 600px;
-    width: auto;
 
-}
 
 #about-head{
     background-image:
@@ -123,4 +119,18 @@
     background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
     url('assets/img/abouthead.jpg');
+}
+
+@media (max-width:800px){
+    .image-box{
+        height: 220px;
+        width: auto;
+    }
+}
+
+@media (min-width:801px){
+    .image-box{
+        height: 600px;
+        width: auto;
+    }
 }

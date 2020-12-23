@@ -56,10 +56,9 @@ function ContactUs() {
   return (
     <>
       <ExamplesNavbar />
+        <ContactUsHeader />
       <div className="main">
         <div className="section">
-        <ContactUsHeader />
-        <div className="section landing-section">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="6">
@@ -110,7 +109,6 @@ function ContactUs() {
            
            <Maps />
              
-        </div>
         </div>
         </div>
         </div>
