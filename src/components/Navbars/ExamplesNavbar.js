@@ -48,6 +48,7 @@ function ExamplesNavbar() {
       className="fixed-top"
       color-on-scroll="300"
       expand="lg"
+      style={{backgroundColor:"white"}}
     >
       <Container>
         <div className="navbar-translate">
@@ -66,6 +67,17 @@ function ExamplesNavbar() {
                 marginBottom:"-15px"
               }}
             />
+
+            {/* <img 
+              className="phone"
+              src={require('assets/img/head-logo.png')}
+              style={{
+                width:"60px",
+                height:"auto",
+                marginTop:"-15px",
+                marginBottom:"-15px"
+              }}
+            />  */}     
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}

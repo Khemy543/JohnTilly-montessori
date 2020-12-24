@@ -17,20 +17,14 @@
 
 */
 import React from "react";
+import { Link } from 'react-router-dom';
 
 // reactstrap components
 import {
   Button,
   Card,
   CardBody,
-  CardFooter,
-  CardTitle,
   CardImg,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
   Container,
   Row,
   Col,
@@ -38,12 +32,8 @@ import {
 
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
-import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
-import ProfilePageHeader from "components/Headers/ProfilePageHeader";
 import Footer from "components/Footers/Footer";
-import ContactUsHeader from "components/Headers/ContactUsHeader";
-import AdmissionHeader from "components/Headers/AdmissionHeader";
 import AcademicHeader from "components/Headers/AcademicHeader";
 
 function Academic() {
@@ -82,6 +72,8 @@ function Academic() {
                     <Button
                         color="danger"
                         className="btn-round"
+                        tag={Link}
+                        to="/admission-forms"
                     >
                         Enroll Now
                     </Button>

@@ -25,7 +25,7 @@ import { Row, Container,Col } from "reactstrap";
 
 function DemoFooter() {
   return (
-    <footer className="footer" style={{backgroundColor:"#00d8ff"}}>
+    <footer className="footer" style={{backgroundColor:"#878787"}}>
       <Container>
         <Row>
         <Col>

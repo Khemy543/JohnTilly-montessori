@@ -41,6 +41,7 @@ import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 import Footer from "components/Footers/Footer";
+import { Link } from "react-router-dom";
 
 
 const items = [
@@ -216,6 +217,8 @@ function LandingPage() {
                     <Button
                       className="card-button"
                       outline
+                      tag={Link}
+                      to="/admission-forms"
                     >
                       Apply Now  <i class="nc-icon nc-minimal-right" style={{fontWeight:"bold"}}/>
                     </Button>
@@ -235,8 +238,10 @@ function LandingPage() {
                     <br/>
                     <br/>
                     <Button
-                    className="card-button"
-                    outline
+                      className="card-button"
+                      outline
+                      tag={Link}
+                      to="/admission-forms"
                     >
                       Apply Now  <i class="nc-icon nc-minimal-right" style={{fontWeight:"bold"}}/>
                     </Button>
@@ -247,7 +252,7 @@ function LandingPage() {
                 <Card className="card-plain card-main" style={{boxShadow:"0 2px 12px rgba(0,0,0,0.1)"}}>
                   <CardImg top src={require('assets/img/primary.jpg')} style={{borderRadius:"0px"}}/>
                   <CardBody style={{padding:"20px 20px"}}>
-                    <h4 className="card-head">PRIMARY 1-3</h4>
+                    <h4 className="card-head">PRIMARY</h4>
                     <br/>
                     <h5 className="card-description">
                     The primary school teaches a wide range of subjects including art activities that enables 
@@ -257,8 +262,10 @@ function LandingPage() {
                     <br/>
                     <br/>
                     <Button
-                    className="card-button"
-                    outline
+                      className="card-button"
+                      outline
+                      tag={Link}
+                      to="/admission-forms"
                     >
                       Apply Now  <i class="nc-icon nc-minimal-right" style={{fontWeight:"bold"}}/>
                     </Button>

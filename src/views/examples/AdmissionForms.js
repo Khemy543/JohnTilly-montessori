@@ -67,7 +67,7 @@ function AdmissionForms() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="6">
-                <h2 className="text-center">Admission Forms</h2>
+                <h2 className="head-title text-uppercase text-center" style={{fontSize:"19px", color:"#dd9933", marginTop:"40px"}}>Admission Forms</h2>
                 <Form className="contact-form" onSubmit={handleWardSubmit}>
                   <Row>
                     <Col md="12">
@@ -97,7 +97,7 @@ function AdmissionForms() {
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
-                            <i className="nc-icon nc-email-85" />
+                            <i className="fa fa-globe" />
                           </InputGroupText>
                         </InputGroupAddon>
                         <Input placeholder="Nationality" type="text" required/>
@@ -108,7 +108,7 @@ function AdmissionForms() {
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
-                            <i className="nc-icon nc-email-85" />
+                            <i className="nc-icon nc-single-02" />
                           </InputGroupText>
                         </InputGroupAddon>
                         <Input placeholder="Age" type="text" required/>
@@ -154,8 +154,9 @@ function AdmissionForms() {
                       <Button type="submit" style={{
                           backgroundColor:"transparent",
                           borderColor:"transparent",
-                          color:"black"
-                      }}>
+                          color:"#dd9933"
+                      }}
+                      >
                         Next <i className="fa fa-chevron-right"/>
                       </Button>
                     </Col>
@@ -174,7 +175,7 @@ function AdmissionForms() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="6">
-                <h2 className="text-center">Gaurdian Information</h2>
+                <h2 className="head-title text-uppercase text-center" style={{fontSize:"19px", color:"#dd9933", marginTop:"40px"}}>Gaurdian Information</h2>
                 <Form className="contact-form">
                   <Row>
                     <Col md="12">
@@ -246,7 +247,7 @@ function AdmissionForms() {
                   </Row>
                   <Row>
                     <Col className="ml-auto mr-auto" md="12">
-                      <Button className="btn-fill" color="danger" size="lg" block>
+                      <Button className="btn-fill one" size="lg" block>
                         Submit
                       </Button>
                     </Col>

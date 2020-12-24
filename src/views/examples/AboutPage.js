@@ -1,36 +1,13 @@
-/*!
-
-=========================================================
-* Paper Kit React - v1.2.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
+import { Link } from 'react-router-dom'
 
 // reactstrap components
 import {
   Button,
   Card,
   CardBody,
-  CardFooter,
   CardTitle,
   CardImg,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
   Container,
   Row,
   Col,
@@ -38,7 +15,6 @@ import {
 
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
-import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader";
 import Footer from "components/Footers/Footer";
@@ -79,6 +55,8 @@ function AboutPage() {
                     <Button
                         color="danger"
                         className="btn-round"
+                        tag={Link}
+                        to="/admission-forms"
                     >
                         Enroll Now
                     </Button>
@@ -96,120 +74,80 @@ function AboutPage() {
               <Col md="4" sm="6" xs="6">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
                         src={require("assets/img/rose.jpg")}
                       />
-                    </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Mrs. Rose Kpesese</CardTitle>
                         <h6 className="card-category">Chairperson and Founder</h6>
                       </div>
-                    </a>
-                    <p className="card-description text-center">
-                      Teamwork is so important that it is virtually impossible
-                      for you to reach the 
-                    </p>
                   </CardBody>
                 </Card>
               </Col>
               <Col md="4" sm="6" xs="6">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
                         src={require("assets/img/ethel.jpg")}
                       />
-                    </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Miss Ethel Kpesese</CardTitle>
                         <h6 className="card-category">Board Member</h6>
                       </div>
-                    </a>
-                    <p className="card-description text-center">
-                      A group becomes a team when each member is sure enough of
-                      himself and his 
-                    </p>
                   </CardBody>
                 </Card>
               </Col>
               <Col md="4" sm="6" xs="6">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
                         src={require("assets/img/richard.jpg")}
                       />
-                    </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Mr Richard Gyimah</CardTitle>
                         <h6 className="card-category">Board Member</h6>
                       </div>
-                    </a>
-                    <p className="card-description text-center">
-                      The strength of the team is each individual member. The
-                      strength of each 
-                    </p>
                   </CardBody>
                 </Card>
               </Col>
               <Col md="4" sm="6" xs="6">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
                         src={require("assets/img/christine.jpg")}
                       />
-                    </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Mrs. Christine Pi-Bansa</CardTitle>
                         <h6 className="card-category">Administrator</h6>
                       </div>
-                    </a>
-                    <p className="card-description text-center">
-                      Teamwork is so important that it is virtually impossible
-                      for you to reach
-                    </p>
                   </CardBody>
                 </Card>
               </Col>
               <Col md="4" sm="6" xs="6">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
                         src={require("assets/img/konde.jpg")}
                       />
-                    </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Konde Jein Joshua</CardTitle>
                         <h6 className="card-category">Board Member</h6>
                       </div>
-                    </a>
-                    <p className="card-description text-center">
-                      A group becomes a team when each member is sure enough of
-                      himself and his 
-                    </p>
                   </CardBody>
                 </Card>
               </Col>

@@ -11,6 +11,10 @@
     font-size: 18px;
 }
 
+.card-main{
+    background-color: white !important;
+}
+
 .card-description{
     font-weight:600; 
     font-size:14px;
@@ -18,7 +22,7 @@
 }
 
 .card-main:hover{
-    background-color: #dd9933;
+    background-color: #dd9933 !important;
     cursor: pointer;
 }
 
@@ -92,6 +96,10 @@
     color: white !important;
 }
 
+.card-outer{
+    background-color: white !important;
+}
+
 
 
 #about-head{
@@ -103,7 +111,7 @@
 #academic-head{
     background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-    url('assets/img/abouthead.jpg');
+    url('assets/img/academic2.jpg');
 }
 #program-head{
     background-image:
@@ -126,12 +134,24 @@
         height: 220px;
         width: auto;
     }
+    .desktop{
+        display: none;
+    }
+    .phone{
+        display: block;
+    }
 }
 
 @media (min-width:801px){
     .image-box{
         height: 600px;
         width: auto;
+    }
+    .desktop{
+        display: block;
+    }
+    .phone{
+        display: none;
     }
 }
 
