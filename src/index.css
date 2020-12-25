@@ -1,5 +1,15 @@
 .active {
-  border-bottom:0.4em solid #dd9933;
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.4em;
+  text-decoration-color: #dd9933;  
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.active:hover{
+    
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.4em;
+  text-decoration-color: #dd9933;  
   font-weight: 600;
   text-transform: uppercase;
 }

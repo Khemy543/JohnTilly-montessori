@@ -37,7 +37,7 @@ function AdmissionHeader() {
         <div className="filter" />
         <Container>
           <div className="motto text-uppercase text-center">
-            <h1 style={{fontWeight:500}}>Proceedure and Requirements</h1> 
+            <h1 style={{fontWeight:500,marginTop:"70px"}}>Proceedure and Requirements</h1> 
             <br/>
             <Button
               className="btn-round mr-1"
