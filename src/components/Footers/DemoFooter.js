@@ -27,8 +27,8 @@ function DemoFooter() {
   return (
     <footer className="footer" style={{backgroundColor:"rgb(204 124 63)"}}>
       <Container>
-        <Row>
-        <Col>
+        <Row style={{overflow:"hidden"}}>
+        <Col data-aos="slide-right">
           <nav className="footer-nav" >
             <ul>
               <li style={{textAlign:"left"}}>
@@ -58,13 +58,13 @@ function DemoFooter() {
             </ul>
           </nav>
           </Col>
-          <Col>
+          <Col data-aos="slide-up">
             <div style={{textAlign:"center"}}>
             <img src={require('assets/img/logo-footer.png')} style={{height:"100px", width:'auto', marginTop:"20px"}}/>
             </div>
           </Col>
 
-          <Col>
+          <Col data-aos="slide-left">
           <nav className="footer-nav">
             <ul>
               <li style={{textAlign:"left"}}>

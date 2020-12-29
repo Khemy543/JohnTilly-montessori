@@ -118,13 +118,13 @@ function LandingPage() {
         </marquee>
           <Container>
             {/* <h4 className="text-center text-uppercase head-title">About Us</h4> */}
-            <Row>
-              <Col md="6" lg="6" xl="6" xs="12" sm="12">
+            <Row style={{overflowX:"hidden" }}>
+              <Col md="6" lg="6" xl="6" xs="12" sm="12" data-aos="fade-right">
               <Card className="card-plain" style={{boxShadow:"0 2px 12px rgba(0,0,0,0.1)"}}>
                   <CardImg top src={require('assets/img/about2.jpg')} style={{borderRadius:"0px"}}/>
                 </Card>
               </Col>
-              <Col md="6" lg="6" xl="6" xs="12" sm="12">
+              <Col md="6" lg="6" xl="6" xs="12" sm="12" data-aos="fade-left">
                 <Card className="card-plain">
                   <CardBody>
                     <h3 className="head-title text-uppercase text-center" style={{fontSize:"19px", color:"#dd9933"}}>Welcome To JohnTilly Montessori</h3>
@@ -143,7 +143,7 @@ function LandingPage() {
             {/* <SectionCarousel /> */}
             <div className="section"> 
               <Container>
-              <div className="text-center">
+              <div className="text-center" data-aos="zoom-in" data-aos-delay="100">
                 <Carousel
                   activeIndex={activeIndex}
                   next={next}
@@ -158,8 +158,8 @@ function LandingPage() {
               </Container>
             </div>
 
-            <Container>
-              <Row>
+            <Container style={{overflowX:"hidden" }}>
+              <Row data-aos="fade-right">
                 <Col md="6" lg="6" xl="6" xs="12" sm="12">
                 <Card className="card-plain" style={{boxShadow:"0 2px 12px rgba(0,0,0,0.1)"}}>
                   <CardImg top src={require('assets/img/head1.jpg')} style={{borderRadius:"0px"}}/>
@@ -179,8 +179,8 @@ function LandingPage() {
               </Row>
             </Container>
 
-            <Container>
-              <Row>
+            <Container style={{overflowX:"hidden" }}>
+              <Row data-aos="fade-left">
               <Col md="6" lg="6" xl="6" xs="12" sm="12">
                 <Card className="card-plain">
                   <CardBody>

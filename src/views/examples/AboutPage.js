@@ -34,13 +34,13 @@ function AboutPage() {
       <div className="main">
         <div className="section">
           <Container>
-            <Row style={{marginTop:"20px"}}>
-              <Col md="6" lg="6" xl="6" xs="12" sm="12">
+            <Row style={{marginTop:"20px", overflowX:"hidden"}}>
+              <Col md="6" lg="6" xl="6" xs="12" sm="12" data-aos="fade-right">
               <Card className="card-plain" style={{boxShadow:"0 2px 12px rgba(0,0,0,0.1)"}}>
                   <CardImg top src={require('assets/img/owner.jpg')} style={{borderRadius:"0px"}}/>
                 </Card>
               </Col>
-              <Col md="6" lg="6" xl="6" xs="12" sm="12">
+              <Col md="6" lg="6" xl="6" xs="12" sm="12" data-aos="fade-left">
                 <Card className="card-plain">
                   <CardBody>
                     <h3 className="head-title text-uppercase text-center" style={{fontSize:"30px", color:"#dd9933"}}>Welcome To JohnTilly Montessori</h3>
@@ -71,7 +71,7 @@ function AboutPage() {
           <Container>
             <h2 className="head-title text-uppercase text-center" style={{fontSize:"30px"}}>Meet The Team</h2>
             <Row>
-              <Col md="4" sm="6" xs="6">
+              <Col md="4" sm="6" xs="6" data-aos="fade-up" data-aos-delay="100">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                       <img
@@ -87,7 +87,7 @@ function AboutPage() {
                   </CardBody>
                 </Card>
               </Col>
-              <Col md="4" sm="6" xs="6">
+              <Col md="4" sm="6" xs="6" data-aos="fade-up" data-aos-delay="100">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                       <img
@@ -103,7 +103,7 @@ function AboutPage() {
                   </CardBody>
                 </Card>
               </Col>
-              <Col md="4" sm="6" xs="6">
+              <Col md="4" sm="6" xs="6" data-aos="fade-up" data-aos-delay="100">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                       <img
@@ -119,7 +119,7 @@ function AboutPage() {
                   </CardBody>
                 </Card>
               </Col>
-              <Col md="4" sm="6" xs="6">
+              <Col md="4" sm="6" xs="6" data-aos="fade-up" data-aos-delay="100">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                       <img
@@ -135,7 +135,7 @@ function AboutPage() {
                   </CardBody>
                 </Card>
               </Col>
-              <Col md="4" sm="6" xs="6">
+              <Col md="4" sm="6" xs="6" data-aos="fade-up" data-aos-delay="100">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                       <img

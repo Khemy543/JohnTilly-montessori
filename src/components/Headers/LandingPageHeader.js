@@ -39,7 +39,7 @@ function LandingPageHeader() {
           <div className="motto text-uppercase">
             <h1 style={{fontWeight:500}} data-aos="slide-right" data-aos-delay="200">I DON'T LOVE STUDYING <br/>I LOVE LEARNING</h1> 
             <br/>
-            <div data-aos="slide-right" data-aos-delay="400">
+            <div data-aos="fade-up" data-aos-delay="400">
             <Button
               className="btn-round mr-1 one"
               color="neutral"
